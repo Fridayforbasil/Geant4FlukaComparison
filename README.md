@@ -14,6 +14,7 @@ In SaveHistogramsToTxt.C file, change the name of rootFileName to your root file
 
 In DrawOverlappingHistograms.C file, change both txt file name and tab.lis file name according to your files. I have put comments just above them to help you navigate. 
 ![image](https://github.com/user-attachments/assets/f639f3b3-0942-4d27-a4da-da3753812910)
+
 I should mention that this code was written for analyzing fluence-energy graph. Content of your data may be different. You can modify the columns by adding or changing doubles. Check what you want to plot and edit this part accordingly. Each data file may have different columns that give different physical quantity so not giving proper instruction on which column to read and plot may lead to errors.
 
 txt name can be changed in "std::ifstream file1("")"
